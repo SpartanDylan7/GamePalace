@@ -14,21 +14,21 @@
 <AnchorPane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #3DBA30;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.spartan.gamepalace.BlackJackController">
     <children>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="777.0" layoutY="33.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 45;" width="55.0" />
-        <Text layoutX="782.0" layoutY="138.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -135;" text="2">
+        <Text layoutX="781.0" layoutY="136.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -135;" text="2">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Circle layoutX="800.0" layoutY="85.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="719.0" layoutY="43.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: -78;" width="55.0" />
         <Text fill="RED" layoutX="696.0" layoutY="109.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -78;" text="10">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
-        <Text fill="RED" layoutX="775.0" layoutY="98.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -78;" text="10">
+        <Text fill="RED" layoutX="773.0" layoutY="101.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -78;" text="10">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Ellipse fill="RED" layoutX="747.0" layoutY="100.0" radiusX="17.0" radiusY="9.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: 5;" />
@@ -42,45 +42,45 @@
         <Ellipse fill="#f0d232" layoutX="400.0" layoutY="119.0" radiusX="90.0" radiusY="34.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="10.0" />
         <Label alignment="CENTER" layoutX="339.0" layoutY="417.0" prefHeight="20.0" prefWidth="122.0" text="Total:">
             <font>
-                <Font name="Dosis Regular" size="20.0" />
+                <Font name="Roboto Bold" size="18.0" />
             </font></Label>
         <Label fx:id="countLbl" alignment="CENTER" layoutX="365.0" layoutY="438.0" prefHeight="17.0" prefWidth="70.0" text="Count">
             <font>
-                <Font name="Dosis Regular" size="20.0" />
+                <Font name="Roboto Bold" size="19.0" />
             </font></Label>
         <Label alignment="CENTER" layoutX="333.0" layoutY="272.0" prefHeight="40.0" prefWidth="134.0" text="Card Drawn:">
             <font>
-                <Font name="Dosis Regular" size="25.0" />
+                <Font name="Roboto Bold" size="24.0" />
             </font></Label>
         <Label fx:id="cardLbl" alignment="CENTER" layoutX="339.0" layoutY="300.0" prefHeight="40.0" prefWidth="122.0" text="Card">
             <font>
-                <Font name="Dosis Regular" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font></Label>
         <Button fx:id="acetwoBtn" layoutX="400.0" layoutY="531.0" mnemonicParsing="false" onAction="#acetwoButtonClick" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: lightblue;" text="Ace: 11">
             <font>
-                <Font name="Dosis Regular" size="12.0" />
+                <Font name="Roboto Bold" size="11.0" />
             </font></Button>
         <Button fx:id="aceoneBtn" layoutX="344.0" layoutY="531.0" mnemonicParsing="false" onAction="#aceoneButtonClick" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: lightblue;" text="Ace: 1">
             <font>
-                <Font name="Dosis Regular" size="12.0" />
+                <Font name="Roboto Bold" size="11.0" />
             </font></Button>
         <Button fx:id="newgameBtn" alignment="CENTER" layoutX="249.0" layoutY="24.0" mnemonicParsing="false" onAction="#newgameButtonClick" prefHeight="53.0" prefWidth="151.0" style="-fx-background-color: #28981B;" text="New Game" AnchorPane.leftAnchor="249.0">
             <font>
-                <Font name="Dosis ExtraBold" size="26.0" />
+                <Font name="Roboto Bold" size="24.0" />
             </font>
         </Button>
         <Label fx:id="msgLbl" alignment="CENTER" layoutX="6.0" layoutY="139.0" prefHeight="126.0" prefWidth="789.0" text="BUST" textFill="RED" AnchorPane.leftAnchor="6.0">
             <font>
-                <Font name="Dosis Regular" size="86.0" />
+                <Font name="Roboto Bold" size="69.0" />
             </font>
         </Label>
         <Label alignment="CENTER" layoutX="339.0" layoutY="95.0" prefHeight="32.0" prefWidth="122.0" text="Opponents Total:">
             <font>
-                <Font name="Dosis Regular" size="18.0" />
+                <Font name="Roboto Bold" size="15.0" />
             </font></Label>
         <Label fx:id="oppcountLbl" alignment="CENTER" layoutX="339.0" layoutY="118.0" prefHeight="17.0" prefWidth="122.0" text="OppCount">
             <font>
-                <Font name="Dosis Regular" size="18.0" />
+                <Font name="Roboto Bold" size="18.0" />
             </font></Label>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="60.0" layoutY="428.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 35;" width="55.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="688.0" layoutY="428.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: -35;" width="55.0" />
@@ -91,18 +91,18 @@
         <Circle fill="DODGERBLUE" layoutX="291.0" layoutY="566.0" radius="20.0" stroke="#0e52bf" strokeType="INSIDE" strokeWidth="5.0" />
         <Button fx:id="stayBtn" layoutX="695.0" layoutY="538.0" mnemonicParsing="false" onAction="#stayButtonClick" prefHeight="57.0" prefWidth="97.0" style="-fx-background-color: yellow;" text="Stay">
             <font>
-                <Font name="Dosis Bold" size="27.0" />
+                <Font name="Roboto Bold" size="27.0" />
             </font>
         </Button>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="160.0" layoutY="476.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 27;" width="55.0" />
         <Text layoutX="184.0" layoutY="497.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 27;" text="7">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text layoutX="181.0" layoutY="579.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 27;" text="7">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Circle layoutX="178.0" layoutY="523.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
@@ -111,36 +111,36 @@
         <Polygon layoutX="182.0" layoutY="532.0" points="-16.117752075195312, 13.11773681640625, 19.882247924804688, 13.11773681640625, -1.0699354410171509, -7.799666881561279" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: 27;" />
         <Text layoutX="91.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 35;" text="9">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Ellipse layoutX="83.0" layoutY="480.0" radiusX="17.0" radiusY="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: 130;" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="74.0" layoutY="448.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 23;" width="55.0" />
         <Text fill="RED" layoutX="98.0" layoutY="473.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 23;" text="1">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text fill="RED" layoutX="100.0" layoutY="551.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 23;" text="1">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Ellipse fill="RED" layoutX="97.0" layoutY="504.0" radiusX="17.0" radiusY="9.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: 80;" />
         <Ellipse fill="RED" layoutX="106.0" layoutY="507.0" radiusX="17.0" radiusY="9.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: -50;" />
         <Button fx:id="hitBtn" layoutX="7.0" layoutY="538.0" mnemonicParsing="false" onAction="#hitButtonClick" prefHeight="57.0" prefWidth="97.0" style="-fx-background-color: orange;" text="Hit">
             <font>
-                <Font name="Dosis Bold" size="27.0" />
+                <Font name="Roboto Bold" size="27.0" />
             </font>
         </Button>
         <Text fill="RED" layoutX="674.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -35;" text="7">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text fill="RED" layoutX="747.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -35;" text="7">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Polygon fill="RED" layoutX="711.0" layoutY="453.0" points="-13.90975570678711, 28.505674362182617, 11.27236270904541, 32.28447723388672, 3.604641914367676, 7.809271812438965" stroke="RED" strokeType="INSIDE" style="-fx-rotate: -35;" />
@@ -149,24 +149,24 @@
         <Ellipse layoutX="605.0" layoutY="524.0" radiusX="17.0" radiusY="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: -150;" />
         <Text layoutX="562.0" layoutY="510.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -24;" text="A">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text layoutX="625.0" layoutY="565.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -24;" text="A">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="599.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: -35;" width="13.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="545.0" layoutY="492.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: -45;" width="55.0" />
         <Text fill="RED" layoutX="525.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -45;" text="K">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text fill="RED" layoutX="604.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -45;" text="K">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" layoutX="561.0" layoutY="550.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: 45;" width="10.0" />
@@ -187,24 +187,24 @@
         <Ellipse layoutX="648.0" layoutY="11.0" radiusX="17.0" radiusY="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: -150;" />
         <Text layoutX="606.0" layoutY="-3.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -24;" text="A">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text layoutX="668.0" layoutY="52.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -24;" text="8">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Rectangle arcHeight="5.0" arcWidth="5.0" height="27.0" layoutX="642.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: -35;" width="13.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="664.0" layoutY="8.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: -45;" width="55.0" />
         <Text fill="RED" layoutX="648.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -35;" text="8">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text fill="RED" layoutX="723.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -45;" text="8">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Polygon fill="RED" layoutX="687.0" layoutY="33.0" points="-13.90975570678711, 28.505674362182617, 11.27236270904541, 32.28447723388672, 3.604641914367676, 7.809271812438965" stroke="RED" strokeType="INSIDE" style="-fx-rotate: -45;" />
@@ -212,12 +212,12 @@
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="120.0" layoutY="-10.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 27;" width="55.0" />
         <Text layoutX="144.0" layoutY="11.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 27;" text="5">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text layoutX="141.0" layoutY="93.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 27;" text="5">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Circle layoutX="138.0" layoutY="37.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
@@ -227,12 +227,12 @@
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="15.0" layoutY="81.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 78;" width="55.0" />
         <Text fill="RED" layoutX="71.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 78;" text="J">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Text fill="RED" layoutX="1.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 78;" text="J">
             <font>
-                <Font name="Dosis ExtraBold" size="25.0" />
+                <Font name="Roboto Bold" size="25.0" />
             </font>
         </Text>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="20.0" layoutX="5.0" layoutY="113.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: 78;" width="10.0" />
@@ -251,27 +251,27 @@
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaf5ea" height="104.0" layoutX="82.0" layoutY="60.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" style="-fx-rotate: 47;" width="55.0" />
         <Text layoutX="116.0" layoutY="83.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 47;" text="J">
             <font>
-                <Font name="Dosis ExtraBold" size="20.0" />
+                <Font name="Roboto Bold" size="20.0" />
             </font>
         </Text>
         <Text layoutX="103.0" layoutY="96.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 47;" text="O">
             <font>
-                <Font name="Dosis ExtraBold" size="20.0" />
+                <Font name="Roboto Bold" size="20.0" />
             </font>
         </Text>
         <Text layoutX="90.0" layoutY="109.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 47;" text="K">
             <font>
-                <Font name="Dosis ExtraBold" size="20.0" />
+                <Font name="Roboto Bold" size="20.0" />
             </font>
         </Text>
         <Text layoutX="63.0" layoutY="132.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 47;" text="R">
             <font>
-                <Font name="Dosis ExtraBold" size="20.0" />
+                <Font name="Roboto Bold" size="20.0" />
             </font>
         </Text>
         <Text layoutX="77.0" layoutY="120.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 47;" text="E">
             <font>
-                <Font name="Dosis ExtraBold" size="20.0" />
+                <Font name="Roboto Bold" size="20.0" />
             </font>
         </Text>
         <Circle layoutX="110.0" layoutY="119.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
@@ -287,7 +287,7 @@
         <Circle layoutX="116.0" layoutY="122.0" radius="1.0" stroke="BLACK" strokeType="INSIDE" />
       <Button fx:id="menuBtn" alignment="CENTER" layoutX="401.0" layoutY="24.0" mnemonicParsing="false" onAction="#menuButtonClick" prefHeight="53.0" prefWidth="151.0" style="-fx-background-color: #28981B;" text="Main Menu">
          <font>
-            <Font name="Dosis ExtraBold" size="26.0" />
+            <Font name="Roboto Bold" size="23.0" />
          </font>
       </Button>
     </children>

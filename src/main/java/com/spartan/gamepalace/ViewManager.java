@@ -18,7 +18,7 @@ public class ViewManager {
     public static void setScene(Scene scene){
         ViewManager.scene = scene;
     }
-
+//allows you to switch between games/change scenes
     public static void switchTo(View view){
         if(scene == null){
             System.out.println("Scene Was Not Set");

@@ -16,7 +16,7 @@ public enum Cards {
     KING,
     QUEEN,
     ACE;
-
+//picks a card out of the deck
     public static Cards getCard(){
         Random random = new Random();
         int i = random.nextInt(13);

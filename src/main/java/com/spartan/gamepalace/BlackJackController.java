@@ -41,12 +41,12 @@ public class BlackJackController implements Initializable {
 
     @FXML
     private Label oppcountLbl;
-
+//sends you back to the main menu when you click the button
     @FXML
     void menuButtonClick(ActionEvent event){
         ViewManager.switchTo(View.MAINMENU);
     }
-
+//gives you a card from the deck and checks if you or your opponent busts
     @FXML
     void hitButtonClick(ActionEvent event) {
         oppHit();
@@ -113,7 +113,7 @@ public class BlackJackController implements Initializable {
             oppcountLbl.setText("Busted");
         }
     }
-
+    //chooses the ace card you pulled to be worth the value of 1
     @FXML
     void aceoneButtonClick(ActionEvent event) {
         aceChoiceOne = true;
@@ -134,7 +134,7 @@ public class BlackJackController implements Initializable {
             countLbl.setText("" + count);
         }
     }
-
+//chooses the ace card you pulled to be worth the value of 11
     @FXML
     void acetwoButtonClick(ActionEvent event) {
         aceChoiceOne = false;
@@ -156,7 +156,7 @@ public class BlackJackController implements Initializable {
         }
     }
 
-
+//Makes you stay and doesn't give you a card then determines whether you have won or not
     @FXML
     void stayButtonClick(ActionEvent event) {
         newgameBtn.setDisable(false);
@@ -179,7 +179,7 @@ public class BlackJackController implements Initializable {
             msgLbl.setVisible(true);
         }
     }
-
+//Starts a new game of Blackjack
     @FXML
     void newgameButtonClick(ActionEvent event) {
         oppcountLbl.setText("?");
@@ -216,7 +216,7 @@ public class BlackJackController implements Initializable {
         }
 
     }
-
+//sets up the game when you join blackjack
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         oppcountLbl.setText("?");
@@ -231,7 +231,7 @@ public class BlackJackController implements Initializable {
         msgLbl.setStyle("-fx-text-fill: black");
         msgLbl.setVisible(true);
     }
-
+//determines whether the computer you are playing again wants to get another card(hit) or stay
     public void oppHit(){
         if(oppcount<15){
             Cards card = Cards.getCard();

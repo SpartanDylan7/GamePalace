@@ -15,12 +15,12 @@
       <Arc fill="#36b536" layoutX="431.0" layoutY="412.0" length="270.0" radiusX="216.0" radiusY="401.0" startAngle="45.0" stroke="#36b536" strokeType="INSIDE" style="-fx-rotate: 90;" type="ROUND" />
       <Button fx:id="bjBtn" layoutX="114.0" layoutY="364.0" mnemonicParsing="false" onAction="#onBjClick" prefHeight="97.0" prefWidth="157.0" style="-fx-background-color: Green;" text="BlackJack">
          <font>
-            <Font name="Dosis Bold" size="28.0" />
+            <Font name="Roboto Bold" size="26.0" />
          </font>
       </Button>
       <Button fx:id="tttBtn" layoutX="529.0" layoutY="364.0" mnemonicParsing="false" onAction="#onTTTClick" prefHeight="97.0" prefWidth="157.0" style="-fx-background-color: Green;" text="TicTacToe">
          <font>
-            <Font name="Dosis Bold" size="28.0" />
+            <Font name="Roboto Bold" size="25.0" />
          </font>
       </Button>
       <Polygon fill="#25b512" layoutX="400.0" layoutY="148.0" points="-50.0, 40.0, 50.0, 40.0, 1.0, -148.0" stroke="#25b512" strokeType="INSIDE" style="-fx-rotate: 180;" />
@@ -32,9 +32,9 @@
       <Polygon fill="#25b512" layoutX="48.0" layoutY="64.0" points="-50.0, 40.0, 50.0, 40.0, 1.0, -148.0" stroke="#25b512" strokeType="INSIDE" style="-fx-rotate: -245;" />
       <Polygon fill="#25b512" layoutX="753.0" layoutY="64.0" points="-50.0, 40.0, 50.0, 40.0, 1.0, -148.0" stroke="#25b512" strokeType="INSIDE" style="-fx-rotate: 245;" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="128.0" layoutX="311.0" layoutY="242.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="5.0" style="-fx-rotate: -25;" width="78.0" />
-      <Text layoutX="192.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To The GamePalace" textAlignment="CENTER" wrappingWidth="415.13671875">
+      <Text layoutX="192.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To The GamePalace" textAlignment="CENTER" wrappingWidth="415.13671875">
          <font>
-            <Font name="Dosis ExtraBold" size="59.0" />
+            <Font name="Roboto Bold" size="59.0" />
          </font>
       </Text>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="128.0" layoutX="361.0" layoutY="236.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="5.0" width="78.0" />
@@ -42,12 +42,12 @@
       <Polygon fill="RED" layoutX="357.0" layoutY="294.0" points="-13.90975570678711, 28.505674362182617, 11.27236270904541, 32.28447723388672, 3.604641914367676, 7.809271812438965" stroke="RED" strokeType="INSIDE" style="-fx-rotate: -215;" />
       <Text layoutX="368.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
          <font>
-            <Font name="Dosis ExtraBold" size="29.0" />
+            <Font name="Roboto Bold" size="29.0" />
          </font>
       </Text>
       <Text layoutX="418.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
          <font>
-            <Font name="Dosis ExtraBold" size="29.0" />
+            <Font name="Roboto Bold" size="29.0" />
          </font>
       </Text>
       <Ellipse layoutX="396.0" layoutY="294.0" radiusX="17.0" radiusY="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-rotate: -65;" />
@@ -56,24 +56,24 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="128.0" layoutX="400.0" layoutY="249.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="5.0" style="-fx-rotate: 18;" width="78.0" />
       <Text fill="RED" layoutX="421.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 18;" text="5">
          <font>
-            <Font name="Dosis ExtraBold" size="29.0" />
+            <Font name="Roboto Bold" size="29.0" />
          </font>
       </Text>
       <Text fill="RED" layoutX="440.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 18;" text="5">
          <font>
-            <Font name="Dosis ExtraBold" size="29.0" />
+            <Font name="Roboto Bold" size="29.0" />
          </font>
       </Text>
       <Ellipse fill="RED" layoutX="435.0" layoutY="314.0" radiusX="17.0" radiusY="9.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: 81;" />
       <Ellipse fill="RED" layoutX="444.0" layoutY="317.0" radiusX="17.0" radiusY="9.0" stroke="RED" strokeType="INSIDE" style="-fx-rotate: -45;" />
       <Text fill="RED" layoutX="303.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -25;" text="1">
          <font>
-            <Font name="Dosis ExtraBold" size="29.0" />
+            <Font name="Roboto Bold" size="29.0" />
          </font>
       </Text>
       <Button layoutX="321.0" layoutY="399.0" mnemonicParsing="false" onAction="#onMsClick" prefHeight="97.0" prefWidth="157.0" style="-fx-background-color: Green;" text="MineSweeper">
          <font>
-            <Font name="Dosis Bold" size="23.0" />
+            <Font name="Roboto Bold" size="21.0" />
          </font>
       </Button>
    </children>

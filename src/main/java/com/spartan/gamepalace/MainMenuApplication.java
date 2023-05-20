@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MainMenuApplication extends Application {
+    //called when the app starts
     @Override
     public void start(Stage stage) throws IOException {
         Scene scene = new Scene(new Pane());

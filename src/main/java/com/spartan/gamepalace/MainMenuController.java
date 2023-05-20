@@ -14,17 +14,17 @@ public class MainMenuController implements Initializable {
 
         @FXML
         private Button tttBtn;
-
+//opens the blackjack game
         @FXML
         void onBjClick(ActionEvent event) {
             ViewManager.switchTo(View.BLACKJACK);
         }
-
+//opens the tictactoe game
         @FXML
         void onTTTClick(ActionEvent event) {
             ViewManager.switchTo(View.TICTACTOE);
         }
-
+//opens the minesweeper game
         @FXML
         void onMsClick(ActionEvent event) {
             System.out.println("MineSweeper");

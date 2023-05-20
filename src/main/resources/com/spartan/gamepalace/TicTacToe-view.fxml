@@ -23,47 +23,47 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00ae49" height="200.0" layoutX="498.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="200.0" />
       <Button fx:id="oneBtn" layoutX="103.0" layoutY="5.0" mnemonicParsing="false" onAction="#onOneBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="1">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="twoBtn" layoutX="303.0" layoutY="5.0" mnemonicParsing="false" onAction="#onTwoBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="2">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="threeBtn" layoutX="503.0" layoutY="5.0" mnemonicParsing="false" onAction="#onThreeBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="3">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="fourBtn" layoutX="103.0" layoutY="205.0" mnemonicParsing="false" onAction="#onFourBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="4">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="fiveBtn" layoutX="303.0" layoutY="205.0" mnemonicParsing="false" onAction="#onFiveBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="5">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="sixBtn" layoutX="503.0" layoutY="205.0" mnemonicParsing="false" onAction="#onSixBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="6">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="sevenBtn" layoutX="103.0" layoutY="405.0" mnemonicParsing="false" onAction="#onSevenBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="7">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="eightBtn" layoutX="303.0" layoutY="405.0" mnemonicParsing="false" onAction="#onEightBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="8">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Button fx:id="nineBtn" layoutX="503.0" layoutY="405.0" mnemonicParsing="false" onAction="#onNineBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="9">
          <font>
-            <Font name="Dosis Bold" size="96.0" />
+            <Font name="Roboto Bold" size="96.0" />
          </font>
       </Button>
       <Line fx:id="aLine" endX="300.0" endY="297.0" layoutX="395.0" layoutY="300.0" startX="-294.0" startY="-297.0" strokeWidth="10.0" />
@@ -76,12 +76,12 @@
       <Line fx:id="hLine" endX="-0.071044921875" endY="299.928955078125" layoutX="400.0" layoutY="98.0" startX="-0.071044921875" startY="-297.0710754394531" strokeWidth="10.0" style="-fx-rotate: 90;" />
       <Button fx:id="gameBtn" layoutX="25.0" layoutY="280.0" mnemonicParsing="false" onAction="#onGameBtnClick" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: yellow;" text="New Game">
          <font>
-            <Font name="Dosis Bold" size="12.0" />
+            <Font name="Roboto Bold" size="11.0" />
          </font>
       </Button>
       <Button fx:id="menuBtn" layoutX="699.0" layoutY="280.0" mnemonicParsing="false" onAction="#onMenuBtnClick" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: yellow;" text="Main Menu">
          <font>
-            <Font name="Dosis Bold" size="12.0" />
+            <Font name="Roboto Bold" size="11.0" />
          </font>
       </Button>
       <Arc fill="#652507" layoutX="6.0" layoutY="304.0" length="270.0" nodeOrientation="LEFT_TO_RIGHT" radiusX="192.0" radiusY="509.0" startAngle="45.0" stroke="#723910" strokeType="INSIDE" strokeWidth="10.0" style="-fx-rotate: 0;" type="ROUND" />
@@ -112,12 +112,12 @@
       <Circle fill="#146f0e" layoutX="742.0" layoutY="583.0" radius="13.0" stroke="#146f0e" strokeType="INSIDE" strokeWidth="0.0" />
       <Text fill="#ffb900" layoutX="713.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -65;" text="100">
          <font>
-            <Font name="Dubai Bold" size="12.0" />
+            <Font name="Roboto Bold" size="12.0" />
          </font>
       </Text>
       <Text fill="#ffb900" layoutX="754.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: 115;" text="100" textAlignment="CENTER">
          <font>
-            <Font name="Dubai Bold" size="12.0" />
+            <Font name="Roboto Bold" size="12.0" />
          </font>
       </Text>
       <Circle fill="#9d13ff" layoutX="737.0" layoutY="569.0" radius="14.0" stroke="#61175b" strokeType="INSIDE" strokeWidth="4.0" style="-fx-rotate: 45;" />
@@ -145,28 +145,28 @@
       <Ellipse fill="#e19a00" layoutX="71.0" layoutY="386.0" radiusX="20.0" radiusY="34.0" stroke="#ffd505" strokeType="INSIDE" strokeWidth="5.0" />
       <Text layoutX="59.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="26.0" fx:id="xScore">
          <font>
-            <Font name="Dosis ExtraBold" size="18.0" />
+            <Font name="Roboto Bold" size="18.0" />
          </font>
       </Text>
       <Text layoutX="723.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER">
          <font>
-            <Font name="Dosis ExtraBold" size="12.0" />
+            <Font name="Roboto Bold" size="12.0" />
          </font>
       </Text>
       <Text layoutX="66.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" textAlignment="CENTER">
          <font>
-            <Font name="Dosis ExtraBold" size="19.0" />
+            <Font name="Roboto Bold" size="19.0" />
          </font>
       </Text>
       <Ellipse fill="#e19a00" layoutX="726.0" layoutY="386.0" radiusX="20.0" radiusY="34.0" stroke="#ffd505" strokeType="INSIDE" strokeWidth="5.0" />
       <Text fx:id="oScore" layoutX="714.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="26.0">
          <font>
-            <Font name="Dosis ExtraBold" size="18.0" />
+            <Font name="Roboto Bold" size="18.0" />
          </font>
       </Text>
       <Text layoutX="721.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O" textAlignment="CENTER">
          <font>
-            <Font name="Dosis ExtraBold" size="19.0" />
+            <Font name="Roboto Bold" size="19.0" />
          </font>
       </Text>
    </children>
