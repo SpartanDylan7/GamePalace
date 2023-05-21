@@ -71,7 +71,7 @@ public class TicTacToeController implements Initializable {
 
     int scorex = 0;
     int scoreo = 0;
-
+//starts a new game
     @FXML
     void onGameBtnClick(ActionEvent event) {
         oneBtn.setText("");
@@ -102,12 +102,12 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+//sends you back to the main menu
     @FXML
     void onMenuBtnClick(ActionEvent event) {
         ViewManager.switchTo(View.MAINMENU);
     }
-
+//puts and X on this specific box
     @FXML
     void onEightBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -118,7 +118,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onFiveBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -129,7 +129,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onFourBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -140,7 +140,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onNineBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -151,7 +151,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onOneBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -162,7 +162,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onSevenBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -173,7 +173,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onSixBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -184,7 +184,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onThreeBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -195,7 +195,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+    //puts and X on this specific box
     @FXML
     void onTwoBtnClick(ActionEvent event) {
         if(!aLine.isVisible() &&!bLine.isVisible() &&!cLine.isVisible() &&!dLine.isVisible() &&!eLine.isVisible() &&!fLine.isVisible() &&!gLine.isVisible() &&!hLine.isVisible()) {
@@ -207,7 +207,7 @@ public class TicTacToeController implements Initializable {
         }
     }
 
-
+    //called when the program starts
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         oneBtn.setText("");
@@ -239,7 +239,7 @@ public class TicTacToeController implements Initializable {
             OClick();
         }
     }
-
+//checks for a win for Xz
     public void getWinX(){
         if(oneBtn.getText().equals("X") && twoBtn.getText().equals("X") && threeBtn.getText().equals("X")){
             hLine.setVisible(true);
@@ -290,11 +290,11 @@ public class TicTacToeController implements Initializable {
             xScore.setText(""+scorex);
         }
     }
-
+//disabled a square after someone clicks it
     public void getClick(){
         setBtnDisabled();
     }
-
+//Checks for a win for O
     public void getWinO(){
         if(oneBtn.getText().equals("O") && twoBtn.getText().equals("O") && threeBtn.getText().equals("O")){
             hLine.setVisible(true);
@@ -345,6 +345,7 @@ public class TicTacToeController implements Initializable {
             oScore.setText(""+scoreo);
         }
     }
+    //Code behind the robot you play against - determines where the robot wants to place its O
     Random r = new Random();
     int i = r.nextInt(9);
     public void OClick(){
@@ -780,7 +781,7 @@ public class TicTacToeController implements Initializable {
                 }
             }
         }
-
+//disableds all of the squars
     public void setBtnDisabled(){
         oneBtn.setDisable(true);
         twoBtn.setDisable(true);
@@ -792,7 +793,7 @@ public class TicTacToeController implements Initializable {
         eightBtn.setDisable(true);
         nineBtn.setDisable(true);
     }
-
+//enables all of the squares
     public void setBtnEnabled(){
         if (oneBtn.getText().equals("")) {
             oneBtn.setDisable(false);

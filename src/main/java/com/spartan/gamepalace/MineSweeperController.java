@@ -12,14 +12,13 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+
 import javax.sound.midi.MidiChannel;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,17 +30,20 @@ public class MineSweeperController {
 
     @FXML
     private Button defuseBtn;
-//called when you defuse the bombs
+
+    //called when you defuse the bombs
     @FXML
     void onDefuseClick(ActionEvent event) {
         tilesList.forEach(Tile::openFlags);
     }
-//starts a new game
+
+    //starts a new game
     @FXML
     void onGameClick(ActionEvent event) {
         onNewGame();
     }
-//goes back to the main menu
+
+    //goes back to the main menu
     @FXML
     void onMenuClick(ActionEvent event) {
         ViewManager.switchTo(View.MAINMENU);
@@ -60,13 +62,12 @@ public class MineSweeperController {
     private final Tile[][] grid = new Tile[X_TILES][Y_TILES];
     private final List<Tile> minesList = new ArrayList<>();
     private final List<Tile> tilesList = new ArrayList<>();
-    private MediaPlayer player;
     private boolean gameOver = false;
     private double level = 0.15; // 0.15 = 15% bombs
-    private MidiChannel channel;
     private final IntegerProperty flags = new SimpleIntegerProperty();
     int bombcount;
-//called when minesweeper opens
+
+    //called when minesweeper opens
     @FXML
     private void initialize() {
         // setting size and content
@@ -87,7 +88,8 @@ public class MineSweeperController {
             onNewGame();
         });
     }
-//dynamically creates a new board with different bomb locations
+
+    //dynamically creates a new board with different bomb locations
     @FXML
     private void onNewGame() {
         gameOver = false;
@@ -95,12 +97,14 @@ public class MineSweeperController {
         gamePane.getChildren().add(createContent());
 
     }
-//called when you lose
+
+    //called when you lose
     private void gameOver() {
         gameOver = true;
         minesList.forEach(Tile::open);
     }
-//creates the tiles dynamically with bombs and starts the game
+
+    //creates the tiles dynamically with bombs and starts the game
     public Parent createContent() {
 
         Pane root = new Pane();
@@ -137,7 +141,8 @@ public class MineSweeperController {
         return root;
 
     }
-//gets the amount of bombs a tile is touching
+
+    //gets the amount of bombs a tile is touching
     private List<Tile> getNeighbors(Tile tile) {
         List<Tile> neighbors = new ArrayList<>();
 
@@ -171,7 +176,8 @@ public class MineSweeperController {
 
         return neighbors;
     }
-//code for the tiles
+
+    //code for the tiles
     private class Tile extends StackPane {
         private final int x, y;
         private final boolean hasBomb;
@@ -226,7 +232,8 @@ public class MineSweeperController {
             });
 
         }
-//flags a tile when you right click on it
+
+        //flags a tile when you right click on it
         private void flagTile() {
             if (!gameOver) {
                 if (flagText.isVisible()) {
@@ -240,7 +247,8 @@ public class MineSweeperController {
                 bombcountLbl.setText("\uD83D\uDEA9" + bombcount);
             }
         }
-//called when you open a tile
+
+        //called when you open a tile
         private void open() {
             if (isOpen) return;
             if (flagText.isVisible()) {
@@ -270,7 +278,8 @@ public class MineSweeperController {
                 getNeighbors(this).forEach(Tile::open);
             }
         }
-//opens all the flagged tiles when you defuse the bombs
+
+        //opens all the flagged tiles when you defuse the bombs
         private void openFlags() {
             flagText.setFill(Color.BLACK);
             if (isOpen) return;
