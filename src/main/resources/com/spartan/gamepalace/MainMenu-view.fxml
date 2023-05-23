@@ -32,7 +32,7 @@
       <Polygon fill="#25b512" layoutX="48.0" layoutY="64.0" points="-50.0, 40.0, 50.0, 40.0, 1.0, -148.0" stroke="#25b512" strokeType="INSIDE" style="-fx-rotate: -245;" />
       <Polygon fill="#25b512" layoutX="753.0" layoutY="64.0" points="-50.0, 40.0, 50.0, 40.0, 1.0, -148.0" stroke="#25b512" strokeType="INSIDE" style="-fx-rotate: 245;" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="128.0" layoutX="311.0" layoutY="242.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="5.0" style="-fx-rotate: -25;" width="78.0" />
-      <Text layoutX="192.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To The GamePalace" textAlignment="CENTER" wrappingWidth="415.13671875">
+      <Text layoutX="192.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To The GamePalace" textAlignment="CENTER" wrappingWidth="415.13671875">
          <font>
             <Font name="Roboto Bold" size="59.0" />
          </font>

@@ -23,47 +23,47 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00ae49" height="200.0" layoutX="498.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="200.0" />
       <Button fx:id="oneBtn" layoutX="103.0" layoutY="5.0" mnemonicParsing="false" onAction="#onOneBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="1">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="twoBtn" layoutX="303.0" layoutY="5.0" mnemonicParsing="false" onAction="#onTwoBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="2">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="threeBtn" layoutX="503.0" layoutY="5.0" mnemonicParsing="false" onAction="#onThreeBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="3">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="fourBtn" layoutX="103.0" layoutY="205.0" mnemonicParsing="false" onAction="#onFourBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="4">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="fiveBtn" layoutX="303.0" layoutY="205.0" mnemonicParsing="false" onAction="#onFiveBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="5">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="sixBtn" layoutX="503.0" layoutY="205.0" mnemonicParsing="false" onAction="#onSixBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="6">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="sevenBtn" layoutX="103.0" layoutY="405.0" mnemonicParsing="false" onAction="#onSevenBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="7">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="eightBtn" layoutX="303.0" layoutY="405.0" mnemonicParsing="false" onAction="#onEightBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #057935;" text="8">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Button fx:id="nineBtn" layoutX="503.0" layoutY="405.0" mnemonicParsing="false" onAction="#onNineBtnClick" prefHeight="190.0" prefWidth="191.0" style="-fx-background-color: #00ae49;" text="9">
          <font>
-            <Font name="Roboto Bold" size="96.0" />
+            <Font name="Roboto Bold" size="70.0" />
          </font>
       </Button>
       <Line fx:id="aLine" endX="300.0" endY="297.0" layoutX="395.0" layoutY="300.0" startX="-294.0" startY="-297.0" strokeWidth="10.0" />
